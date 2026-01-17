@@ -1,0 +1,102 @@
+.bg-gray{
+    background-color: #2C3E50;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.text-gray {
+    color: #2C3E50;
+}
+
+.bg-dark-gray {
+    background: #131B23;
+}
+
+
+
+.nav-link.active {
+    background: #1ABC9C;
+    border-radius: 15px;
+}
+
+
+.upper-footer {
+    padding-block: 70px;
+}
+
+
+.upper-footer h2 {
+    font-weight: 500;
+    font-style: 28px;
+}
+
+.upper-footer li i {
+    color: white;
+    border: 1px solid white;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.vh-90 {
+    min-height: 90vh; 
+}
+
+
+
+
+/* home =============*/
+
+
+.bg-green {
+    background: #1ABC9C;
+}
+
+
+
+
+.line {
+    width: 100px;
+    height: 4px;
+}
+
+
+
+
+
+.card-imgs .layer {
+    background: rgba(26, 188, 156, 0.692);
+    opacity: 0;
+    transition: all 500ms;
+}
+
+
+.card-imgs:hover .layer {
+    opacity: 1;
+}
+
+
+
+.form-control:focus{
+  box-shadow: none;
+  transition: 500ms;
+}
+
+
+.btn{
+   background-color: #2EBC9C;
+   &:hover{
+    background-color: #22957a;
+    color: #fff;
+   }
+}
